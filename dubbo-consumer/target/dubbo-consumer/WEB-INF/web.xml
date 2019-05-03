@@ -15,7 +15,7 @@
   <!-- 指定spring bean 的配置文件所在目录 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationConsumer.xml,classpath:springmvc.xml</param-value>
+    <param-value>classpath:applicationConsumer.xml</param-value>
   </context-param>
   <!--在web容器即tomcat启动时创建Spring容器-->
   <listener>

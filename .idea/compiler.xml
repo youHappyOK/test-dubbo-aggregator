@@ -11,8 +11,5 @@
         <module name="dubbo-provider-facade" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dubbo-provider-facade" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

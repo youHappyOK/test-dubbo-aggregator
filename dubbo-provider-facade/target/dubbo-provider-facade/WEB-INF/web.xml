@@ -4,15 +4,4 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-
-  <!-- 指定spring bean 的配置文件所在目录 -->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationProvider.xml</param-value>
-  </context-param>
-  <!--在web容器即tomcat启动时创建Spring容器-->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-
 </web-app>
